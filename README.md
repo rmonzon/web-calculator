@@ -1,10 +1,10 @@
-# Simple calculator web app
+# Simple web-based calculator
 
 This educational project is a simple web calculator to perform simple math operations.
 
 Stack used: 
-[AngularJS](http://angularjs.org/).
-HTML5
+[AngularJS](http://angularjs.org/),
+HTML5,
 CSS
 
 You can use it as a way to learn how to develop apps based off AngularJS
@@ -35,7 +35,7 @@ Then you can start your own development web server to serve static files from a 
 running:
 
 ```
-http-server -a localhost -p 8000
+http-server -a localhost
 ```
 
 Alternatively, you can choose to configure your own webserver, such as apache or nginx. Just
