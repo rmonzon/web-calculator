@@ -1,4 +1,4 @@
-# Simple web calculator for educational purposes
+# Simple calculator web app
 
 This educational project is a simple web calculator to perform simple math operations.
 
