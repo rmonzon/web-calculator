@@ -1,0 +1,18 @@
+<div class="header">
+    <label style="font-size: 18px">Web calculator project based off AngularJS</label>
+</div>
+
+<div class="main-container">
+    <label class="ans-label">Ans = </label>
+    <input type="text" value="0" class="main-input" ng-model="mainInput" readonly />
+
+    <div style="float: right;width: 304px;height: 300px;margin-top: 10px;">
+        <div ng-repeat="r in nums">
+            <button class="num-button" ng-repeat="c in r" ng-click="onClickButton(c)" ng-class="c == '=' ? 'equal-btn' : isChar(c) ? 'op-button' : ''">{{c}}</button>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <label style="position: relative;top: 4px;">&copy; 2015. Developed by Raul Rivero</label>
+</div>
