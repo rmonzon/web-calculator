@@ -11,7 +11,7 @@ button {
 .main-container {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   height: 265px;
   margin-top: -172px;
   width: 300px;
@@ -30,21 +30,22 @@ button {
 
 .header {
   width: 100%;
-  height: 30px;
-  background: grey;
+  height: 45px;
+  background: #484848;
   color: whitesmoke;
   text-align: center;
+  padding-top: 15px;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 30px;
-  background: grey;
+  height: 50px;
+  background: #002d3c;
   color: whitesmoke;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 20px;
 }
 
 .main-input {
