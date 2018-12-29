@@ -2,6 +2,8 @@
 
 This educational project is a simple web calculator to perform simple math operations.
 
+https://rmonzon.github.io/web-calculator/app/index.html
+
 Stack used: 
 [AngularJS](http://angularjs.org/),
 HTML5,
